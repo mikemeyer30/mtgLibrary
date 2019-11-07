@@ -22,13 +22,14 @@ class Main extends Component {
     return(
         <AppBar position="static">
         <Toolbar className={styles.toolbar}>
-          <IconButton edge="start" color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-          <Typography className={styles.appBarText}variant="h6" >
-              MTG Library
-          </Typography>
-          <Button className={styles.appBarButton} color="inherit">Login</Button>
+            <div>
+              <Typography className={styles.appBarText}variant="h6" >
+                MTG Library
+              </Typography>
+            </div>
+            <div>
+              <Button className={styles.appBarButton} color="inherit">Login</Button>
+            </div>
         </Toolbar>
       </AppBar>
     )

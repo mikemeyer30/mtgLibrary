@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export const withStyles = (Component, useStyles, useTheme) => {
   return (props) => {
     const theme = useTheme();
