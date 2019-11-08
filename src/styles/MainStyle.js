@@ -11,6 +11,15 @@ export const useStyles = makeStyles(theme => ({
   },
   appBarButton:{
     flex: 1
+  },
+  linkContainer: {
+    height: '5%',
+    display: 'flex',
+    border: '1px solid blue'
+  },
+  navList:{
+    display: 'flex',
+    flexDirection: 'row'
   }
 }));
   
